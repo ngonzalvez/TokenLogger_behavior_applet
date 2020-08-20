@@ -1,0 +1,24 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/TokenLogger_applet/master/protocols/TokenLogger/TokenLogger_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "TokenLogger_schema",
+    "skos:prefLabel": "TokenLogger",
+    "schema:description": "protocol for TokenLogger",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/TokenLogger_applet/master/protocols/TokenLogger/README.md",
+    "ui": {
+        "addProperties": [
+            {"variableName": "TokenActivity_schema",
+            "isAbout": "TokenActivity_schema",
+            "isVis": true
+            }
+        ],
+        "order": [
+            "TokenActivity_schema"
+        ],
+        "shuffle": false
+    }
+}

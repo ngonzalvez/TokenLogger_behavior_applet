@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "token_screen",
+    "question": "Token Screen",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "schema:minValue": 0,
+        "schema:maxValue": 1,
+        "multipleChoice": true,
+        "choices": [{
+            "@type": "schema:option",
+            "schema:name": "Get dressed before 8am",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Finish eating breakfast before 8:30am",
+            "@type": "schema:option",
+            "schema:value": 1
+        },
+        {
+            "schema:name": "Leave for camp like a big boy (without arguing) by 9am",
+            "@type": "schema:option",
+            "schema:value": 1
+        }]
+    }
+}
